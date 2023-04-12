@@ -1,9 +1,8 @@
 names = []
 
-num = input("How many names do you want to input: ")
-num = int(num)
+num = int(input("How many names do you want to input: "))
 
-for i in range(0, num):
+for i in range(num):
     user_name = input("Enter the name: ")
     names.append(user_name)
 
